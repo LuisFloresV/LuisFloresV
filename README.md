@@ -1,12 +1,6 @@
 <h2> Hey there! Im Luis ❤ </h2>
 
-<br/>
-<a href="https://www.linkedin.com/in/luis-flores-velazquez/">
-  <img align="left" alt="Linkedin" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-</a>
-<br />
-
-<img align='center' src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fexpress-js-icon-20.png&f=1&nofb=1" width="250">
+<img align='middle' src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvectorified.com%2Fimages%2Fexpress-js-icon-20.png&f=1&nofb=1" width="250">
 
 ### Who am I? 
 
@@ -26,6 +20,8 @@ app.get('/Luis',(req,res,next) => {
     }
   })
 })
+
+app.listen(9000, ()=> console.log('Server ready ✨'))
 ```
 ![My Github stats](https://github-readme-stats.vercel.app/api?username=LuisFloresV&show_icons=true&hide_border=true&theme=dark)   
 
