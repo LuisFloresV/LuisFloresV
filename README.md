@@ -1,4 +1,4 @@
-<h2> Hey there! Im Luis ❤ </h2>
+<h1> Hey there! Im Luis Flores </h1>
 
 <p><em>Node.js Backend Developer</em></p>
 
@@ -9,14 +9,14 @@ const express = require('express')
 const app = express()
 app.use(express.json())
 
-app.get('/luis',(req,res,next) => {
+app.get('/me',(req,res,next) => {
   res.status(200).json({
     status: 'success'
     data: {
       name: 'Luis Daniel Flores Velázquez',
       aka: 'Naoko',
-      languages: ['JavaScript', 'Java'],
-      tools: ['Node.js', 'Express.js', 'Jest', 'MongoDB', 'AWS', 'Heroku']
+      languages: ['JavaScript'],
+      tools: ['Node.js', 'Express.js', 'Jest', 'MongoDB', 'AWS']
     }
   })
 })
