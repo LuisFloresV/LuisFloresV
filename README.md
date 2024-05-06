@@ -1,6 +1,6 @@
-<h1> Hey there! Im Luis Flores </h1>
+<h1> Hey! Im Luis Flores ⚫ </h1>
 
-<p><em>Node.js Backend Developer</em></p>
+<p><em>Node.js Developer</em></p>
 
 ### Who am I? 
 
@@ -16,13 +16,10 @@ app.get('/me',(req,res,next) => {
       name: 'Luis Daniel Flores Velázquez',
       aka: 'Naoko',
       languages: ['JavaScript'],
-      tools: ['Node.js', 'Express.js', 'Jest', 'MongoDB', 'AWS']
+      tools: ['Node.js', 'Serverless', 'MongoDB', 'AWS']
     }
   })
 })
 
-app.listen(9000, () => console.log('Server ready ✨'))
+app.listen(9000, () => console.log('Server ready'))
 ```
-![My Github stats](https://github-readme-stats.vercel.app/api?username=LuisFloresV&show_icons=true&hide_border=true&theme=dark)   
-
-
